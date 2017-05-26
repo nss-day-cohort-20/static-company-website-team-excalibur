@@ -1,0 +1,23 @@
+
+
+nav ul {
+  list-style-type: none;
+ }
+
+nav li {
+	display: inline;
+}
+
+.main-header {
+	width: 100%;
+	background-color: #fdf8be;
+	background-image: src="temporalTourLogo.jpg;";
+}
+
+.logo {
+	display: inline;
+}
+
+nav a {
+  text-style: none;
+}
