@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temporal Tours | Contact Us</title>
+
+<header class="main-header">
+			<img class="logo" src="temporalTourLogo.jpg" alt="Temporal Tours Logo" width=640px height=360>
+			<h1>Temporal Tours</h1>
+		<nav>
+			<ul>
+				<li><a href="trips.html">Browse Trips</a></li>
+				<li><a href="guides.html">Travel Guides</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="contact.html">Custom Tour</a></li>
+			</ul>
+		</nav>
+
+</header>
+</head>
+<body>
+
+<section id="submitInfo">
+	<div class="info"> <!--Place people submit info-->
+		<label for="name">Name:</label>
+		<input id ="name"type="text" name="user_name">
+
+		<label for="email">Email:</label>
+		<input id ="email"type="text" name="user_email">
+
+		<label for="phone">Phone:</label>
+		<input id ="phone"type="tell" name="user_phone">
+
+		<label for="comments">Comments:</label>
+		<textarea id ="comments" name="user_comments"></textarea>
+		<button type="submit">Submit Info</button>
+	</div>
+	<div class="customTour"> <!--Place for contacting TT for custom tours-->
+		<div class="cultureChoice">
+			<label>Culture Choice</label>
+			<label for="africa">Africa:</label>
+			<input id= "africa" type="radio" name="culture_choice" value="africa">
+			<label for="americas">Americas:</label>
+			<input id= "americas" type="radio" name="culture_choice" value="americas">
+			<label for="asia">Asia:</label>
+			<input id= "asia" type="radio" name="culture_choice" value="asia">
+			<label for="europe">Europe:</label>
+			<input id= "europe" type="radio" name="culture_choice" value="europe">
+			<label for="middleeast">Middle East:</label>
+			<input id= "middleeast" type="radio" name="culture_choice" value="middleeast">
+		</div>
+		<div class="yearsRanges">
+			<label>Years</label>
+			<select id="yearrange" name="year_ranges">
+				<option value="4000_3000">
+					4000-3000 BC
+				</option>
+					
+				<option value="3000_2000">
+					3000-2000 BC
+				</option>
+				<option value="2000_1000">
+					2000-1000 BC
+				</option>
+				<option value="1000_0">
+					1000 BC - 0 AD
+				</option>
+				<option value="0_1000">
+					0-1000 AD
+				</option>
+				<option value="1000_2000">
+					1000-2000 AD
+				</option>
+				<option value="2000_present">
+					2000-present 
+				</option>
+			</select>
+			<label>Luxuries</label>
+			<input type="checkbox" id="ancestoralInteraction" value="" name="">
+			
+			
+		
+			
+		</div>
+	</div>
+</section>
+				
+
+<!-- <select id="luxuries">
+			<optgroup label="ancestoralInteraction">
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+			</optgroup>
+			<optgroup label="messWithTime">
+				
+			</optgroup>
+			<optgroup label="timeTravelKit">
+				
+			</optgroup>
+			<optgroup label="personalIntervention">
+				
+			</optgroup>
+			</select> -->
+
+
+
+
+
+</body>
+</html>
