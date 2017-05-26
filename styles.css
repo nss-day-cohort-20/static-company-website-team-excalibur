@@ -2,22 +2,72 @@
 
 nav ul {
   list-style-type: none;
+  margin-top: 110px;
+  padding: 0;
  }
 
 nav li {
-	display: inline;
+	display: block;
+    border: 2px #fdb166 solid;
+    background-color: #fdf8be;
+    color: black;
+    margin: 0 auto;
+}
+
+nav li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  padding: 3px;
 }
 
 .main-header {
-	width: 100%;
+	max-width: 600px;
+/*
+	top: 0;
+	left: 0;
+*/
+	background-image: url("temporalTourLogo.jpg");
 	background-color: #fdf8be;
-	background-image: src="temporalTourLogo.jpg;";
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 5em;
+    text-align: center;
+    text-shadow: 10px 10px 20px #fdf8be, -15px -10px 20px #fdf8be, -10px -20px 12px #fdf8be, -25px -10px 10px #fdf8be;
+   }
+
+.main-header h1 {
+    
 }
 
 .logo {
 	display: inline;
 }
 
-nav a {
-  text-style: none;
+body {
+	background-color: #fdf8be;
+}
+
+
+@media (min-width: 769px) {
+    
+    body{
+        background-color: #fdf8be;
+    }
+    
+    nav li {
+	display: inline;
+        
+        header {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        header h1{
+        	font-size: 3em;
+        }
+        header ul li {
+            font-size: 1.3em;
+        }
 }
