@@ -23,7 +23,7 @@ nav li a {
 }
 
 .main-header {
-	max-width: 600px;
+	max-width: 100%;
 /*
 	top: 0;
 	left: 0;
@@ -49,25 +49,31 @@ body {
 	background-color: #fdf8be;
 }
 
+.tour 
 
-@media (min-width: 769px) {
+@media (min-width: 900px) {
     
-    body{
-        background-color: #fdf8be;
-    }
-    
-    nav li {
-	display: inline;
-        
-        header {
-            width: 100%;
-            max-width: 100%;
-        }
+      body{
+          background-color: #fdf8be;
+      }
+      
+      nav li {
+  	       display: inline;
+      }
+          
+      header {
+              
+          width: 100%;
+          max-width: 100%;
+      }
 
-        header h1{
-        	font-size: 3em;
-        }
-        header ul li {
-            font-size: 1.3em;
-        }
+      header h1{
+          	
+          font-size: 3em;
+      }
+          
+      header ul li {
+          
+          font-size: 1.3em;
+      }
 }
