@@ -51,7 +51,7 @@ body {
 
 .tour 
 
-@media (min-width: 900px) {
+@media (min-width: 769px) {
     
       body{
           background-color: #fdf8be;
