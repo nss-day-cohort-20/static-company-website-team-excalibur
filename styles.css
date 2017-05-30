@@ -98,7 +98,26 @@ footer h5{
 footer p{
   font-size:.5em;
 }
-
+/*Contact page Mobile*/
+/*Info targets the Name, Email, Phone and Comments.*/
+.info{
+  margin-bottom: 5px
+}
+/*Comments box sizing to fit-ish for mobile*/
+.commentBox{
+  margin: 0px;
+  width: 305px;
+  height: 108px;
+}
+.contactButton{
+    /*Mobile should be ok but feel free to change*/
+}
+/*Options for the culture choice, years and luxuries*/
+.desires{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: solid;
+}
 /* MEDIA QUERIES */ 
 
 @media (min-width: 769px) {
@@ -133,3 +152,12 @@ footer p{
           font-size: 1.3em;
       }
 }
+
+/*Non-Mobile Contacts Page*/
+/*Submit info button*/
+.contactButton{
+  width:131px;
+  
+}
+
+

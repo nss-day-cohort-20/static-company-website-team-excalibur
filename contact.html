@@ -28,34 +28,52 @@
 <section id="submitInfo">
 	<div class="info"> <!--Place people submit info-->
 		<label for="name">Name:</label>
+		<br>
 		<input id ="name"type="text" name="user_name">
+		<br>
 
 		<label for="email">Email:</label>
+		<br>
 		<input id ="email"type="text" name="user_email">
+		<br>
 
 		<label for="phone">Phone:</label>
+		<br>
 		<input id ="phone"type="tell" name="user_phone">
+		<br>
 
 		<label for="comments">Comments:</label>
-		<textarea id ="comments" name="user_comments"></textarea>
-		<button type="submit">Submit Info</button>
+		<br>
+		<textarea class ="commentBox" id ="comments" name="user_comments"></textarea>
+		<br>
+		<button class ="contactButton" type="submit">Submit Info</button>
 	</div>
+	<br>
 	<div class="customTour"> <!--Place for contacting TT for custom tours-->
 		<div class="cultureChoice">
-			<label>Culture Choice</label>
+			<label class="desires">Culture Choice</label>
+			<br>
+			<br>
 			<label for="africa">Africa:</label>
 			<input id= "africa" type="radio" name="culture_choice" value="africa">
+			<br>
 			<label for="americas">Americas:</label>
 			<input id= "americas" type="radio" name="culture_choice" value="americas">
+			<br>
 			<label for="asia">Asia:</label>
 			<input id= "asia" type="radio" name="culture_choice" value="asia">
+			<br>
 			<label for="europe">Europe:</label>
 			<input id= "europe" type="radio" name="culture_choice" value="europe">
+			<br>
 			<label for="middleeast">Middle East:</label>
 			<input id= "middleeast" type="radio" name="culture_choice" value="middleeast">
 		</div>
+		<br>
 		<div class="yearsRanges">
-			<label>Years</label>
+			<label class="desires">Years</label>
+			<br>
+			<br>
 			<select id="yearrange" name="year_ranges">
 				<option value="4000_3000">
 					4000-3000 BC
@@ -81,7 +99,10 @@
 				</option>
 			</select>
 			<form>
-			<label>Luxuries</label>
+			<br>
+			<label class="desires">Luxuries</label>
+			<br>
+			<br>
 			<input type="checkbox" id="ancestoralInteraction" value="ancestoralInteraction" name="ancestoralInteraction"><label for="ancestoralInteraction" >Ancestoral Interaction!</label>
 			<br>
 			<input type="checkbox" id="messWithTime" value="messWithTime" name="messWithTime"><label for="messWithTime" >Alter Time!</label>
@@ -118,7 +139,7 @@
 
 
 
-
+<script src="temporalJavaScripts.js"></script>
 </body>
 </html>
 
