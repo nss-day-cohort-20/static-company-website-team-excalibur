@@ -66,7 +66,7 @@ body {
 }
 
 #oregon.tour img, #pompeii.tour img, #firstflight.tour img, #triassic.tour img, #olympics.tour img, #moon.tour img, #caesar.tour img, #spartans.tour img {
-  width:100%;
+  width:95%;
   margin:auto;
   text-align: center;
   margin-top:20px;
@@ -75,6 +75,7 @@ body {
 .tour {
   margin-top:20px;
   border: 1px solid black;
+  padding-right: 12px;
 }
 
 
@@ -101,7 +102,7 @@ footer p{
 
 /* MEDIA QUERIES */ 
 
-@media (min-width: 769px) {
+@media (min-width: 900px) {
     
       body{
           background-color: #fdf8be;
@@ -115,8 +116,7 @@ footer p{
           
       header {
               
-          width: 100%;
-          max-width: 100%;
+          width: 85%;
 
       }
 
@@ -132,4 +132,35 @@ footer p{
           
           font-size: 1.3em;
       }
+
+      .tour {
+         width: 80%;
+         margin: auto;
+         border: none;
+      }
+
+      #tourimageSpartan,
+      #tourimageCaesar,
+      #tourimageMoon,
+      #tourimageOlympics,
+      #tourimageTriassic,
+      #tourimageFlight,
+      #tourimagePompeii,
+      #tourimageOregon
+       {
+        width: 50%;
+        float: left;
+      }
+
+      .container {
+        width: 45%;
+        float: right;
+         }
+
+
+.customtour {
+  clear: both;
+}
+
+
 }
