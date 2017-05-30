@@ -48,7 +48,6 @@ nav li a {
 }
 
 
-
 /*BODY STYLES*/
 body {
 	background-color: #fdf8be;
@@ -77,7 +76,7 @@ footer p{
 }
 
 #oregon.tour img, #pompeii.tour img, #firstflight.tour img, #triassic.tour img, #olympics.tour img, #moon.tour img, #caesar.tour img, #spartans.tour img {
-  width:100%;
+  width:95%;
   margin:auto;
   text-align: center;
   margin-top:20px;
@@ -86,6 +85,7 @@ footer p{
 .tour {
   margin-top:20px;
   border: 1px solid black;
+  padding-right: 12px;
 }
 
 
@@ -111,9 +111,26 @@ color:#fdf8be;
 
 }
 
-
-
-
+/*Contact page Mobile*/
+/*Info targets the Name, Email, Phone and Comments.*/
+.info{
+  margin-bottom: 5px
+}
+/*Comments box sizing to fit-ish for mobile*/
+.commentBox{
+  margin: 0px;
+  width: 305px;
+  height: 108px;
+}
+.contactButton{
+    /*Mobile should be ok but feel free to change*/
+}
+/*Options for the culture choice, years and luxuries*/
+.desires{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: solid;
+}
 
 /* MEDIA QUERIES */ 
 
@@ -131,8 +148,7 @@ color:#fdf8be;
           
       header {
               
-          width: 100%;
-          max-width: 100%;
+          width: 85%;
 
       }
 
@@ -148,4 +164,48 @@ color:#fdf8be;
           
           font-size: 1.3em;
       }
+
+
+      .tour {
+         width: 80%;
+         margin: auto;
+         border: none;
+      }
+
+      #tourimageSpartan,
+      #tourimageCaesar,
+      #tourimageMoon,
+      #tourimageOlympics,
+      #tourimageTriassic,
+      #tourimageFlight,
+      #tourimagePompeii,
+      #tourimageOregon
+       {
+        width: 50%;
+        float: left;
+      }
+
+      .container {
+        width: 45%;
+        float: right;
+         }
+
+
+.customtour {
+  clear: both;
 }
+
+
+}
+
+}
+
+/*Non-Mobile Contacts Page*/
+/*Submit info button*/
+.contactButton{
+  width:131px;
+  
+}
+
+
+
