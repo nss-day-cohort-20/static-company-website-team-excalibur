@@ -68,15 +68,15 @@ var stringHTML= "";
 function iterateThroughArray(arr) {
 for (var i=0; i<cardArray.length; i++) {
 
-	var message = `<div class="tour" id="${cardArray[i].id}">
+	var message = `<div class="tour card" id="${cardArray[i].id}">
 				<img src="${cardArray[i].url}" alt="${cardArray[i].name}">
 			  
-			  <div class="container">
+			  <div class="containerp">
 			   	<h4>${cardArray[i].name}</h4> 
 			   	<h4>${cardArray[i].price}</h4>
 			  </div><!--end of container-->
 			  
-			  <div class="description">
+			  <div class="descriptionp">
 			 	 	<p>${cardArray[i].description}</p>
 			  </div>
 
