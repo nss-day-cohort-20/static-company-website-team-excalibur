@@ -1,5 +1,5 @@
 
-
+/*UNIVERSAL STYLES*/
 nav ul {
   list-style-type: none;
   margin-top: 110px;
@@ -23,7 +23,7 @@ nav li a {
 }
 
 .main-header {
-	max-width: 600px;
+	max-width: 100%;
 /*
 	top: 0;
 	left: 0;
@@ -31,43 +31,105 @@ nav li a {
 	background-image: url("temporalTourLogo.jpg");
 	background-color: #fdf8be;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	padding: 5em;
     text-align: center;
+    margin:0 auto;
     text-shadow: 10px 10px 20px #fdf8be, -15px -10px 20px #fdf8be, -10px -20px 12px #fdf8be, -25px -10px 10px #fdf8be;
    }
 
-.main-header h1 {
-    
+.main-header h1 a{
+  text-decoration:none;
+ 
 }
 
 .logo {
 	display: inline;
 }
 
+
+/*BODY STYLES*/
 body {
 	background-color: #fdf8be;
 }
 
+/*index.html and trips.html styles*/
+.sectionheading, .container, .description, .customtour, footer{
+  text-align: center;
+}
+
+
+.container, .description, .tour img, button {
+  width:100%;
+  margin:0 auto;
+  padding:5px;
+}
+
+#oregon.tour img, #pompeii.tour img, #firstflight.tour img, #triassic.tour img, #olympics.tour img, #moon.tour img, #caesar.tour img, #spartans.tour img {
+  width:100%;
+  margin:auto;
+  text-align: center;
+  margin-top:20px;
+}
+
+.tour {
+  margin-top:20px;
+  border: 1px solid black;
+}
+
+
+.tour a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.customtour{
+
+background-color:purple;
+color:#fdf8be;
+
+}
+
+footer h5{
+ font-size:1.25em;
+
+}
+
+footer p{
+  font-size:.5em;
+}
+
+/* MEDIA QUERIES */ 
 
 @media (min-width: 769px) {
     
-    body{
-        background-color: #fdf8be;
-    }
-    
-    nav li {
-	display: inline;
-        
-        header {
-            width: 100%;
-            max-width: 100%;
-        }
+      body{
+          background-color: #fdf8be;
+      }
+      
+      nav li {
+  	       display: inline;
 
-        header h1{
-        	font-size: 3em;
-        }
-        header ul li {
-            font-size: 1.3em;
-        }
+
+      }
+          
+      header {
+              
+          width: 100%;
+          max-width: 100%;
+
+      }
+
+      header h1 {
+          	
+          font-size: 3em;
+         
+      }
+
+    
+          
+      header ul li {
+          
+          font-size: 1.3em;
+      }
 }
