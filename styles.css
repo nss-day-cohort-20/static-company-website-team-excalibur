@@ -1,5 +1,5 @@
 
-/*UNIVERSAL STYLES*/
+/*UNIVERSAL STYLES -nav and header*/
 nav ul {
   list-style-type: none;
   margin-top: 110px;
@@ -53,6 +53,16 @@ body {
 	background-color: #fdf8be;
 }
 
+footer h5{
+ font-size:1.25em;
+
+}
+
+footer p{
+  font-size:.5em;
+}
+
+
 /*index.html and trips.html styles*/
 .sectionheading, .container, .description, .customtour, footer{
   text-align: center;
@@ -91,14 +101,16 @@ color:#fdf8be;
 
 }
 
-footer h5{
- font-size:1.25em;
+
+/*Guides and about page styles*/
+
+.bio {
+ 
+ text-align: center;
+ width:100%;
 
 }
 
-footer p{
-  font-size:.5em;
-}
 /*Contact page Mobile*/
 /*Info targets the Name, Email, Phone and Comments.*/
 .info{
@@ -119,6 +131,7 @@ footer p{
     font-weight: bold;
     border-bottom: solid;
 }
+
 /* MEDIA QUERIES */ 
 
 @media (min-width: 900px) {
