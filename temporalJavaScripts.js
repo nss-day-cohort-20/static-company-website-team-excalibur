@@ -1,5 +1,5 @@
 
-var oregonurl="images/oregontrail.jpg";
+var oregonurl="images/oregon2.jpg";
 var pompurl="images/pompeii.jpg"	//look at pompeii one together
 var firsturl="images/wrightbrothers.jpg"
 var triurl="images/triassicdinos.jpg"
@@ -59,10 +59,11 @@ function iterateThroughArray(arr) {
 for (var i=0; i<cardArray.length; i++) {
 
 	var message = `<div class="tour" id="${cardArray[i].id}">
-				<img src="" alt="${cardArray[i].name}">
+				<img src="${cardArray[i].url}" alt="${cardArray[i].name}">
 			  
 			  <div class="container">
 			   	<h4>${cardArray[i].name}</h4> 
+			   	<h4>${cardArray[i].price}</h4>
 			  </div><!--end of container-->
 			  
 			  <div class="description">
