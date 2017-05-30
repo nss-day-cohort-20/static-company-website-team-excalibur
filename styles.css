@@ -85,9 +85,12 @@ footer p{
 .tour {
   margin-top:20px;
   border: 1px solid black;
-  padding-right: 12px;
+  
 }
 
+.padding{
+  padding-right: 12px;
+}
 
 .tour a {
   text-align: center;
@@ -99,7 +102,18 @@ footer p{
 background-color:purple;
 color:#fdf8be;
 
+
 }
+
+
+.containerp{
+  text-align: center;
+}
+
+.descriptionp{
+  height:170px;
+}
+
 
 
 /*Guides and about page styles*/
@@ -191,12 +205,27 @@ color:#fdf8be;
          }
 
 
+
+  .card{
+    width:46%;
+  margin:1%;
+   float:left;
+   height: auto;
+
+}
+
+
+
 .customtour {
   clear: both;
+  margin-top: 20px;
 }
 
 
+
+
 }
+
 
 }
 
