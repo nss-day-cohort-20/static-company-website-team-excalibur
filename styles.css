@@ -24,10 +24,6 @@ nav li a {
 
 .main-header {
 	max-width: 100%;
-/*
-	top: 0;
-	left: 0;
-*/
 	background-image: url("temporalTourLogo.jpg");
 	background-color: #fdf8be;
 	background-repeat: no-repeat;
@@ -232,6 +228,13 @@ color:#fdf8be;
 
 
 
+      /*Non-Mobile Contacts Page*/
+      /*Submit info button*/
+      .contactButton{
+        width:131px;
+        
+      }
+
 
 }
 
@@ -277,13 +280,6 @@ color:#fdf8be;
 
 
 
-
-/*Non-Mobile Contacts Page*/
-/*Submit info button*/
-.contactButton{
-  width:131px;
-  
-}
 
 
 
