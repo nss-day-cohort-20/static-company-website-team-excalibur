@@ -64,7 +64,7 @@ footer p{
 
 
 /*index.html and trips.html styles*/
-.sectionheading, .container, .description, .customtour, footer{
+.customTour h2, .sectionheading, .container, .description, .customtour, footer{
   text-align: center;
 }
 
@@ -125,6 +125,7 @@ color:#fdf8be;
 
 }
 
+
 /*Contact page Mobile*/
 /*Info targets the Name, Email, Phone and Comments.*/
 .info{
@@ -180,10 +181,14 @@ color:#fdf8be;
       }
 
 
-      .tour {
+      .tour, #about {
          width: 80%;
          margin: auto;
          border: none;
+      }
+
+      #about a button, .info button{
+        width:40%;
       }
 
       #tourimageSpartan,
@@ -204,22 +209,26 @@ color:#fdf8be;
         float: right;
          }
 
+      .fauxtardis{
+          width:450px;
+          height:auto;
+          margin:0 auto;
+      }
 
 
-  .card{
-    width:46%;
-  margin:1%;
-   float:left;
-   height: auto;
+      .card, .info, .customTour{
+          width:46%;
+          margin:1%;
+          float:left;
+          height: auto;
 
-}
+      }
 
-
-
-.customtour {
-  clear: both;
-  margin-top: 20px;
-}
+      
+      .customtour {
+         clear: both;
+         margin-top: 20px;
+      }
 
 
 
