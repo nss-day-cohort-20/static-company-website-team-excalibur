@@ -37,6 +37,7 @@ function makeSummaryObject(id, name, description, price, url){
 //need to assign value to 
 //perameters next below and create each object
 
+
 var oregonDescrip = "Can you make it to the Williamette Valley? Test your survival skills and endurance all while pushing your luck with deadly microbes on our most popular US tour!<br>Groups of up to six will embark on this American epic journey. Individual participants (those joining without a group) will be assigned to a departure group of historic travelers (not necessarily survivors)."
 var pompeiiDescrip = "Experience the incredible last day of the famous ancient city. Basic tour experience includes the opportunity to navigate the city through its disaster in real time. Deluxe tour includes hot-air balloon observation feature. Bury your own souvenir! Excavations times of souvenirs may vary."
 var firstflightDescrip = "Airplane enthusiasts rejoice! Travel to windswept 1903 to witness the full day of firsts for human flight. Deluxe package includes meet-and-greet with Wilbur and Orville Wright. Super-deluxe package travelers get to take a ride on the Wright Flyer."
@@ -50,7 +51,7 @@ var spartansDescrip = "Watch Persians clash with Spartans at the Battle of Therm
 var oregon = makeSummaryObject("oregon","Oregon Trail Tour", oregonDescrip, 1000, oregonurl);
 var pompeii = makeSummaryObject("pompeii","Witness the Destruction of Pompeii", pompeiiDescrip, 2000, pompurl);
 var firstflight = makeSummaryObject("firstflight","First in Flight Tour", firstflightDescrip, 3000, firsturl);
-var triassic = makeSummaryObject("triassic","Triassic Park", olympicsDescrip, 4000, triurl);
+var triassic = makeSummaryObject("triassic","Triassic Park", triassicDescrip, 4000, triurl);
 var olympics = makeSummaryObject("olympics","Ancient Greek Olympics Tour", olympicsDescrip, 5000, olympurl);
 var moon = makeSummaryObject("moon","The Lunar Landing", moonDescrip, 6000, moonurl);
 var caesar = makeSummaryObject("caesar","The Assassination of Julius Caesar", caesarDescrip, 7000, caesarurl);
