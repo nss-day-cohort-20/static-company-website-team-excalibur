@@ -183,7 +183,7 @@ color:#fdf8be;
          border: none;
       }
 
-      #about a button, .info button{
+      #about a button, .info button, form button{
         width:40%;
       }
 
