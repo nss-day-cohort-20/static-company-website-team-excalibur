@@ -1,5 +1,5 @@
 
-/*UNIVERSAL STYLES*/
+/*UNIVERSAL STYLES -nav and header*/
 nav ul {
   list-style-type: none;
   margin-top: 110px;
@@ -53,8 +53,18 @@ body {
 	background-color: #fdf8be;
 }
 
+footer h5{
+ font-size:1.25em;
+
+}
+
+footer p{
+  font-size:.5em;
+}
+
+
 /*index.html and trips.html styles*/
-.sectionheading, .container, .description, .customtour, footer{
+.customTour h2, .sectionheading, .container, .description, .customtour, footer{
   text-align: center;
 }
 
@@ -66,7 +76,7 @@ body {
 }
 
 #oregon.tour img, #pompeii.tour img, #firstflight.tour img, #triassic.tour img, #olympics.tour img, #moon.tour img, #caesar.tour img, #spartans.tour img {
-  width:100%;
+  width:95%;
   margin:auto;
   text-align: center;
   margin-top:20px;
@@ -75,8 +85,12 @@ body {
 .tour {
   margin-top:20px;
   border: 1px solid black;
+  
 }
 
+.padding{
+  padding-right: 12px;
+}
 
 .tour a {
   text-align: center;
@@ -88,16 +102,30 @@ body {
 background-color:purple;
 color:#fdf8be;
 
-}
-
-footer h5{
- font-size:1.25em;
 
 }
 
-footer p{
-  font-size:.5em;
+
+.containerp{
+  text-align: center;
 }
+
+.descriptionp{
+  height:170px;
+}
+
+
+
+/*Guides and about page styles*/
+
+.bio {
+ 
+ text-align: center;
+ width:100%;
+
+}
+
+
 /*Contact page Mobile*/
 /*Info targets the Name, Email, Phone and Comments.*/
 .info{
@@ -118,9 +146,10 @@ footer p{
     font-weight: bold;
     border-bottom: solid;
 }
+
 /* MEDIA QUERIES */ 
 
-@media (min-width: 769px) {
+@media (min-width: 900px) {
     
       body{
           background-color: #fdf8be;
@@ -134,8 +163,7 @@ footer p{
           
       header {
               
-          width: 100%;
-          max-width: 100%;
+          width: 85%;
 
       }
 
@@ -151,6 +179,63 @@ footer p{
           
           font-size: 1.3em;
       }
+
+
+      .tour, #about {
+         width: 80%;
+         margin: auto;
+         border: none;
+      }
+
+      #about a button, .info button{
+        width:40%;
+      }
+
+      #tourimageSpartan,
+      #tourimageCaesar,
+      #tourimageMoon,
+      #tourimageOlympics,
+      #tourimageTriassic,
+      #tourimageFlight,
+      #tourimagePompeii,
+      #tourimageOregon
+       {
+        width: 50%;
+        float: left;
+      }
+
+      .container {
+        width: 45%;
+        float: right;
+         }
+
+      .fauxtardis{
+          width:450px;
+          height:auto;
+          margin:0 auto;
+      }
+
+
+      .card, .info, .customTour{
+          width:46%;
+          margin:1%;
+          float:left;
+          height: auto;
+
+      }
+
+      
+      .customtour {
+         clear: both;
+         margin-top: 20px;
+      }
+
+
+
+
+}
+
+
 }
 
 /*Non-Mobile Contacts Page*/
@@ -159,5 +244,6 @@ footer p{
   width:131px;
   
 }
+
 
 
