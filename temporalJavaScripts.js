@@ -37,7 +37,8 @@ function makeSummaryObject(id, name, description, price, url){
 //need to assign value to 
 //perameters next below and create each object
 
-var oregonDescrip = "Can you make it to the Williamette Valley? Test your survival skills and endurance all while pushing your luck with deadly microbes on our most popular US tour!<br>Individual participants (those joining without a group) will be assigned to a departure group of historic travelers (not necessarily survivors). Should over half of your group perish, you will be merged into a group with similar circumstances."
+
+var oregonDescrip = "Can you make it to the Williamette Valley? Test your survival skills and endurance all while pushing your luck with deadly microbes on our most popular US tour!<br>Groups of up to six will embark on this American epic journey. Individual participants (those joining without a group) will be assigned to a departure group of historic travelers (not necessarily survivors)."
 var pompeiiDescrip = "Experience the incredible last day of the famous ancient city. Basic tour experience includes the opportunity to navigate the city through its disaster in real time. Deluxe tour includes hot-air balloon observation feature. Bury your own souvenir! Excavations times of souvenirs may vary."
 var firstflightDescrip = "Airplane enthusiasts rejoice! Travel to windswept 1903 to witness the full day of firsts for human flight. Deluxe package includes meet-and-greet with Wilbur and Orville Wright. Super-deluxe package travelers get to take a ride on the Wright Flyer."
 var triassicDescrip = "Who needs a dinosaur theme park when you can experience the real thing? Study the flora and fauna of the triassic period in their natural habitat!"

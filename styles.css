@@ -236,7 +236,47 @@ color:#fdf8be;
 }
 
 
+
+@media (min-width: 1024px){
+
+
+.card {
+
+          width:25%;
+          margin:4%;
+          float:left;
+          height: auto;
+          border:1px solid #fdb166;
+
 }
+
+
+
+.descriptionp{
+  height:200px;
+}
+
+}
+
+@media (min-width: 1230px){
+
+
+.card {
+
+   width: 20%;
+    margin: 2%;
+    float: left;
+    height: auto;
+    border: 1px solid #fdb166;
+
+}
+
+
+
+}
+
+
+
 
 /*Non-Mobile Contacts Page*/
 /*Submit info button*/
